@@ -1,0 +1,45 @@
+@use '../base/variables' as *;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    &__distributor {
+        color: $white;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__suptext {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    &__subtext {
+        margin-top: 7px;
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    &__contact {
+        display: flex;
+        flex-direction: column;
+
+        & a {
+            color: $white;
+            text-align: right;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 18px;
+            text-decoration: none;
+        }
+
+        & button {
+            margin-top: 4px;
+            align-self: flex-end;
+        }
+    }
+
+}
