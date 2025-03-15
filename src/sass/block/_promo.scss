@@ -1,12 +1,13 @@
 @use '../base/mixins' as *;
 @use '../base/variables' as *;
+@use '../ui/titles' as *;
 
 .promo {
-    background: url('../../img/promo_bg.jpg') center center / cover no-repeat;
+    background: url('../img/promo_bg.jpg') center center / cover no-repeat;
     padding: 21px 0 93px 0;
 
     &__title {
-        @include title;
+        // @include title;
         margin-top: 91px;
         color: $white;
         text-align: right;

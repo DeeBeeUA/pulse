@@ -1,6 +1,7 @@
 @use 'base/basic';
 
 @use 'block/promo';
-@use 'block/header.scss';
+@use 'block/header';
+@use 'block/advantages';
 
-@use 'ui/buttons.scss'
+@use 'ui/buttons.scss';

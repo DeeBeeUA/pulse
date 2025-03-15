@@ -1,0 +1,6 @@
+@use '../base/mixins' as *;
+@use '../base/variables' as *;
+
+.title {
+    @include title;
+}
