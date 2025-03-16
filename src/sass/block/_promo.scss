@@ -73,3 +73,29 @@
         }
     }
 }
+
+@media screen and (max-width: 576px) {
+    .promo {
+        background-position-x: 1%;
+        padding-bottom: 45px;
+
+        &__title {
+            font-size: 38px;
+            text-align: center;
+            margin-top: 75px;
+        }
+
+        &__subtitle {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        &__wrapper {
+            margin: 60px auto 0 auto;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+}

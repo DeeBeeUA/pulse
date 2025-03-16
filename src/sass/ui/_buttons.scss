@@ -16,3 +16,17 @@
 
     font-size: 16px;
 }
+
+@media screen and (max-width: 576px) {
+    .btn-default {
+        width: 140px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .btn-order {
+        width: 250px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
