@@ -1,32 +1,52 @@
 @use '../base/variables' as *;
 @use '../base/mixins' as *;
 
-.btn-default {
-    @include button;
-    font-size: 12px;
+.btn {
+    display: block;
+    background-color: $red;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
 
-    width: 153px;
-    height: 32px;
-}
+    color: $white;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
 
-.btn-order {
-    @include button;
-    width: 300px;
-    height: 50px;
+    &_default {
+        font-size: 12px;
+        width: 153px;
+        height: 32px;
+    }
 
-    font-size: 16px;
+    &_order {
+        width: 303px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    &_submit {
+        width: 303px;
+        height: 58px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    .btn-default {
-        width: 140px;
-        height: 30px;
-        font-size: 11px;
-    }
+    .btn {
+        &_default {
+            width: 140px;
+            height: 30px;
+            font-size: 11px;
+        }
 
-    .btn-order {
-        width: 250px;
-        height: 45px;
-        font-size: 14px;
+        &_order {
+            width: 250px;
+            height: 45px;
+            font-size: 14px;
+        }
     }
 }
