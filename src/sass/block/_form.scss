@@ -31,10 +31,11 @@
             font-weight: 400;
             line-height: 66px;
         }
+    }
+}
 
-        &:focus {
-
-            border: 2px solid rgb(148, 156, 34);
-        }
+@media screen and (max-width:375px) {
+    .form {
+        margin: 36px auto 0 auto;
     }
 }
